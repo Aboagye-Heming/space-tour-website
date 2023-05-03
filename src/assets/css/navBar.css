@@ -1,0 +1,41 @@
+
+.logo {
+  background-color: white;
+  border-radius: 100%;
+  margin-left: 30px;
+
+}
+.line {
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  width: 473px;
+  border: #ffffff solid 0.20px;
+  color: #ffffff;
+  position: absolute;
+  left: 250px;
+  
+}
+.nav {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  position: relative;
+}
+.header-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 48px;
+  color: #ffffff;
+  border: #ffffff solid 0px;
+  padding: 0px 165px 0px 123px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+}
