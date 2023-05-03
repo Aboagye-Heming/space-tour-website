@@ -32,17 +32,14 @@ export default {
 <style scoped>
 .hero {
   background-image: url("../assets/home/background-home-desktop.jpg");
-  background-position: ;
   height: 100vh;
-  margin-left: 0px;
-  margin-right: 0px;
-  
+  margin: 0px;
 }
 
 .hero-content {
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   margin: 287px 165px 131px 165px;
   column-gap: 386px;
 }
