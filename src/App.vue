@@ -2,12 +2,14 @@
   <desktopHomePage />
   <DestinationPage />
   <CrewPage />
+  <TechPage/>
 </template>
 
 <script>
 import DesktopHomePage from "./pages/DesktopHomePage.vue";
 import DestinationPage from "./pages/DestinationPage.vue";
 import CrewPage from "./pages/CrewPage.vue"
+import TechPage from './pages/TechPage.vue';
 
 export default {
   name: "App",
@@ -15,6 +17,7 @@ export default {
     DesktopHomePage,
     DestinationPage,
     CrewPage,
+    TechPage,
   },
 };
 </script>

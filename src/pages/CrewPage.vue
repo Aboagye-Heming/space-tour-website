@@ -46,7 +46,6 @@ export default {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   font-size: 18px;
   line-height: 32px;
   color: #d0d6f9;
@@ -54,7 +53,7 @@ export default {
 .crew-content img {
   width: 568.07px;
   height: 609px;
-  margin-top: 3.1%;
+  margin-top: 1.5%;
 }
 .crew-personality {
   margin-left: 11.5%;
@@ -99,12 +98,16 @@ export default {
     display: flex;
     align-items: center;
     column-gap: 24px;
-    margin-top: 120px;
+    margin-top: 70px;
 }
 .circle {
   border: #ffffff solid 1px;
   width: 15px;
   height: 15px;
   border-radius: 100%;
+}
+.cirlce.active{
+    color:#ffffff;
+    
 }
 </style>
