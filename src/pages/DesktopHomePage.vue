@@ -32,6 +32,8 @@ export default {
 <style scoped>
 .hero {
   background-image: url("../assets/home/background-home-desktop.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
   height: 100vh;
   margin: 0px;
 }

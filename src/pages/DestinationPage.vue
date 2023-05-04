@@ -26,16 +26,16 @@
         <div class="destination-avg-content">
           <div class="destination-distance">
             <p>Avg. distance</p>
-            <p>384,400 km</p>
+            <p class="avg-distance">384,400 km</p>
           </div>
           <div class="destination-travel-time">
             <p>Est. travel time</p>
-            <p>3 days</p>
+            <p class="est-time">3 days</p>
           </div>
         </div>
       </div>
-    </div></diV
-  >
+    </div>
+  </diV>
 </template>
 
 <script>
@@ -50,21 +50,22 @@ export default {
 <style scoped>
 .destination {
   background-image: url(../assets/destination/background-destination-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
 }
 .destination-title {
   margin-top: 76px;
   color: #ffffff;
   margin-left: 11.5%;
-  font-family: "Barlow Condensed";
-  font-style: normal;
-  font-weight: 400;
+
   font-size: 28px;
   line-height: 34px;
   /* identical to box height */
-
   letter-spacing: 4.725px;
-
   color: #ffffff;
 }
 .destination-title span {
@@ -97,24 +98,17 @@ export default {
   justify-content: flex-start;
   column-gap: 40px;
 }
-.sub-nav-bar .active{
-    
-font-family: 'Barlow Condensed';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 2.7px;
-padding-bottom: 12px;
+.sub-nav-bar .active {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  padding-bottom: 12px;
 
-color: #FFFFFF;
-cursor: pointer;
-border-bottom: white solid 1px;
+  color: #ffffff;
+  cursor: pointer;
+  border-bottom: white solid 1px;
 }
 .destination-name {
-  font-family: "Bellefair";
-  font-style: normal;
-  font-weight: 400;
   font-size: 100px;
   line-height: 115px;
   color: #ffffff;
@@ -127,13 +121,18 @@ border-bottom: white solid 1px;
   margin-top: 54px;
 }
 .destination-description {
-  font-family: "Barlow";
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
-  line-height: 32px;
-  /* or 178% */
-
+  line-height: 20px;
   color: #d0d6f9;
+}
+.avg-distance {
+  font-size: 28px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.est-time {
+  font-size: 28px;
+  line-height: 32px;
+  color: #ffffff;
 }
 </style>
