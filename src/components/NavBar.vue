@@ -4,10 +4,10 @@
       <img class="logo" src="../assets/shared/logo.svg" alt="logo" />
       <div class="line"></div>
       <div class="header-icons">
-        <p>00 Home</p>
-        <p>01 Destination</p>
-        <p>02 Crew</p>
-        <p>03 Technology</p>
+        <router-link to="/"> <p>00 Home</p></router-link>
+        <router-link to="destination"> <p>01 Destination</p></router-link>
+        <router-link to="crew"> <p>02 Crew</p></router-link>
+        <router-link to="tech"> <p>03 Technology</p></router-link>
       </div>
     </div>
   </header>
