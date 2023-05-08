@@ -1,23 +1,15 @@
 <template>
-  <desktopHomePage />
-  <DestinationPage />
-  <CrewPage />
-  <TechPage/>
+  <HomePage />
+  <router-view></router-view>
 </template>
 
 <script>
-import DesktopHomePage from "./pages/DesktopHomePage.vue";
-import DestinationPage from "./pages/DestinationPage.vue";
-import CrewPage from "./pages/CrewPage.vue"
-import TechPage from './pages/TechPage.vue';
+import HomePage from "./pages/HomePage.vue";
 
 export default {
   name: "App",
   components: {
-    DesktopHomePage,
-    DestinationPage,
-    CrewPage,
-    TechPage,
+    HomePage,
   },
 };
 </script>
