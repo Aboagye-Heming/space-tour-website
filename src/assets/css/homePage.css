@@ -3,40 +3,44 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  margin: 0px;
 }
 
 .hero-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 287px 165px 131px 165px;
+  margin: 230px 165px 131px 165px;
   column-gap: 386px;
 }
 .hero-content-main {
+  font-size: 18px;
+  line-height: 32px;
   color: #d0d6f9;
-  max-width: 450px;
+  max-width: 444px;
   max-height: 382px;
-  font-size: 13px;
   text-align: left;
 }
 h3 {
-  font-size: 20px;
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;  
   letter-spacing: 4.725px;
-  text-transform: uppercase;
+  color: #D0D6F9;
 }
 h1 {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 172px;
   color: #ffffff;
-  font-family: "Bellefair", serif;
-  font-size: 80px;
-  text-transform: uppercase;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 .explore {
   background-color: white;
   border-radius: 100%;
- 
+
   width: 274px;
   height: 274px;
   color: #0b0d17;

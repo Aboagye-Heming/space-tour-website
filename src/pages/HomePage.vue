@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <NavBar />
-    <div class="hero-content">
+    <div class="hero-content container">
       <div class="hero-content-main">
         <h3>So, you want to travel to</h3>
         <h1>Space</h1>
@@ -12,7 +12,6 @@
           experience!
         </p>
       </div>
-
       <p class="explore">Explore</p>
     </div>
   </div>

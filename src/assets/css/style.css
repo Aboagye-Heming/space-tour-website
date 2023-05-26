@@ -1,5 +1,7 @@
 body {
+  font-family: "Barlow Condensed", sans-serif;
   font-family: "Bellefair", serif;
+  font-style: normal;
   font-weight: 400;
   margin: 0;
 }
@@ -10,4 +12,9 @@ h4,
 h5,
 h6 {
   margin: 0;
+}
+
+.container{
+  margin-left: 165px;
+  margin-right: 140px;
 }
